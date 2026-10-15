@@ -45,11 +45,14 @@ alembic/               # ambiente e migrations versionadas
 ## 4. Instalação e execução
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+git clone https://github.com/gabriel-santos-dionisio/Atividade-Coelho3.git
+cd Atividade-Coelho3
+
+python3 -m venv .venv
+source .venv/bin/activate        
 pip install -r requirements.txt
 
-alembic upgrade head             # cria o banco via migrations
+alembic upgrade head             
 uvicorn app.main:app --reload
 ```
 
