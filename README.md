@@ -2,7 +2,7 @@
 
 Trabalho Prático 03 — Arquitetura de Software (ADS, Bloco IV, 2026.2)
 
-**Integrantes:** _(preencher com os nomes do grupo, máximo 6)_
+**Integrantes:** Gabriel Santos Dionísio (01781882)
 
 ## 1. Modelo de negócio
 
